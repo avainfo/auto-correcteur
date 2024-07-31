@@ -1,0 +1,45 @@
+.setup {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: white;
+    margin-bottom: 2vh;
+}
+
+select {
+    background-color: #1e2127;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+option {
+    background-color: #1e2127;
+    color: white;
+}
+
+button {
+    background-color: #1e2127;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
